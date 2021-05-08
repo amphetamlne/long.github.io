@@ -193,3 +193,7 @@ di.phncdn.com
 cv.phncdn.com
 roomimg.stream.highwebmedia.com
 w3.cdn.anvato.net
+ev-h.phncdn.com
+ss.phncdn.com
+ei.phncdn.com
+cdn1d-static-shared.phncdn.com
