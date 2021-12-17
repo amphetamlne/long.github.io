@@ -28,6 +28,10 @@ jsproxy_config({
         'jsproxy2.412503533.workers.dev': 1,
         'jsproxy3.412503533.workers.dev': 1,
         'jsproxy4.412503533.workers.dev': 1,
+	'jsproxy1.lc412503533.workers.dev': 1,
+        'jsproxy2.lc412503533.workers.dev': 1,
+        'jsproxy3.lc412503533.workers.dev': 1,
+        'jsproxy4.lc412503533.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
