@@ -1,6 +1,44 @@
 # HTTP 返回头存在 access-control-allow-origin: * 的站点，不走代理直接连接
 # 收集了部分，实验中...
 
+# pornhub
+cdn1-smallimg.phncdn.com
+static.trafficjunky.com
+ci.phncdn.com
+di.phncdn.com
+dl.phncdn.com
+ei.phncdn.com
+ss.phncdn.com
+e1v-h.phncdn.com
+ew.phncdn.com
+cw2.phncdn.com
+e1m-h.phncdn.com
+
+as.phncdn.com
+ai.phncdn.com
+cv.phncdn.com
+cm.phncdn.com
+cs.phncdn.com
+cdn1-smallimg.phncdn.com
+dd1.phncdn.com
+dm.phncdn.com
+dm-h.phncdn.com
+dm1.phncdn.com
+dv.phncdn.com
+dv1.phncdn.com
+dd2.phncdn.com
+
+
+# xvideos
+img-l3.xvideos-cdn.com
+static-egc.xvideos-cdn.com
+img-hw.xvideos-cdn.com
+img-hw.xnxx-cdn.com
+static-egc.xnxx-cdn.com
+roomimg.stream.highwebmedia.com
+w3.cdn.anvato.net
+vip142.ssl.hwcdn.net
+
 # google
 ssl.google-analytics.com
 
@@ -182,36 +220,3 @@ static.camshowhub-cdn.to
 
 xqimg.imedao.com
 xavatar.imedao.com
-
-# ???
-img-l3.xvideos-cdn.com
-static-egc.xvideos-cdn.com
-img-hw.xvideos-cdn.com
-img-hw.xnxx-cdn.com
-static-egc.xnxx-cdn.com
-ci.phncdn.com
-cv.phncdn.com
-roomimg.stream.highwebmedia.com
-w3.cdn.anvato.net
-
-ev-h.phncdn.com
-e1v-h.phncdn.com
-cdn1-smallimg.phncdn.com
-as.phncdn.com
-ai.phncdn.com
-ci.phncdn.com
-cs.phncdn.com
-ss.phncdn.com
-static.trafficjunky.com
-hubt.pornhub.com
-
-di.phncdn.com
-dd1.phncdn.com
-dm.phncdn.com
-vip142.ssl.hwcdn.net
-dv1.phncdn.com
-cdn1d-static-shared.phncdn.com
-dm1.phncdn.com
-dv.phncdn.com
-dl.phncdn.com
-dd2.phncdn.com
