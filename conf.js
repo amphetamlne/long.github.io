@@ -12,26 +12,25 @@ jsproxy_config({
 
   // 节点配置
   node_map: {	  
-   //'demo-hk': {
-   //  label: '香港节点',
-   //  lines: {
-   //    // 主机:权重
-   //    'node-aliyun-hk-1.etherdream.com:8443': 1,
-   //    'node-aliyun-hk-2.etherdream.com:8443': 2,
-   //  }
-   //},
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
-	'jsproxy1.412503533.workers.dev': 1,
+        'jsproxy.412503533.workers.dev': 1,
+        'js.lc.workers.dev': 1,
+        'jsproxy.acao.workers.dev':1,
+        'js.lcsina.workers.dev':1,
+        'jsproxy1.412503533.workers.dev': 1,
+        'jsproxy1.lc412503533.workers.dev': 1,
+        'jsproxy1.acao.workers.dev':1,
+        'js1.lcsina.workers.dev':1,
         'jsproxy2.412503533.workers.dev': 1,
-        'jsproxy3.412503533.workers.dev': 1,
-        'jsproxy4.412503533.workers.dev': 1,
-	'jsproxy1.lc412503533.workers.dev': 1,
         'jsproxy2.lc412503533.workers.dev': 1,
+        'jsproxy2.acao.workers.dev':1,
+        'js2.lcsina.workers.dev':1,
+        'jsproxy3.412503533.workers.dev': 1,
         'jsproxy3.lc412503533.workers.dev': 1,
-        'jsproxy4.lc412503533.workers.dev': 1,
+        'jsproxy3.acao.workers.dev':1,
+        'js3.lcsina.workers.dev':1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -39,19 +38,10 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        // 收费版（高权重）
-        //'node-cfworker-2.etherdream.com': 4,
-
-        // 免费版（低权重，分摊一些成本）
-        // 每个账号每天 10 万次免费请求，但有频率限制
-        'jsproxy1.412503533.workers.dev': 1,
-        'jsproxy2.412503533.workers.dev': 1,
-        'jsproxy3.412503533.workers.dev': 1,
-        'jsproxy4.412503533.workers.dev': 1,
-	'jsproxy1.lc412503533.workers.dev': 1,
-        'jsproxy2.lc412503533.workers.dev': 1,
-        'jsproxy3.lc412503533.workers.dev': 1,
-        'jsproxy4.lc412503533.workers.dev': 1,
+        'resource.412503533.workers.dev': 1,
+        'res.lc412503533.workers.dev': 1,
+        'resource.acao.workers.dev':1,
+        'resource.lcsina.workers.dev':1,
       }
     }
   },
@@ -71,7 +61,7 @@ jsproxy_config({
    * 静态资源 CDN 地址
    * 用于加速 `assets` 目录中的资源访问
    */
-  assets_cdn: 'https://cdn.jsdelivr.net/gh/zjcqoo/zjcqoo.github.io@master/assets/',
+  assets_cdn: 'https://cdn.jsdelivr.net/gh/amphetamlne/long.github.io@master/assets/',
 
   // 本地测试时打开，否则访问的是线上的
   //assets_cdn: 'assets/',
@@ -81,7 +71,6 @@ jsproxy_config({
 
   // 支持 CORS 的站点列表（实验中...）
   direct_host_list: 'cors_v1.txt',
-
   /**
    * 自定义注入页面的 HTML
    */
