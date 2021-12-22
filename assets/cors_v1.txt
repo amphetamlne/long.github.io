@@ -10,6 +10,8 @@ dl.phncdn.com
 ei.phncdn.com
 ss.phncdn.com
 e1v-h.phncdn.com
+ev-h.phncdn.com
+hw-cdn2.adtng.com
 ew.phncdn.com
 cw2.phncdn.com
 e1m-h.phncdn.com
