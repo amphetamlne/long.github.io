@@ -1,4 +1,5 @@
 # HTTP 返回头存在 access-control-allow-origin: * 的站点，不走代理直接连接
+# 收集了部分，实验中...
 
 # pornhub
 cdn1-smallimg.phncdn.com
@@ -9,7 +10,6 @@ dl.phncdn.com
 ei.phncdn.com
 ss.phncdn.com
 e1v-h.phncdn.com
-hw-cdn2.adtng.com
 ew.phncdn.com
 cw2.phncdn.com
 e1m-h.phncdn.com
@@ -57,6 +57,7 @@ avatars0.githubusercontent.com
 avatars1.githubusercontent.com
 avatars2.githubusercontent.com
 avatars3.githubusercontent.com
+
 desktop.github.com
 
 # flickr
@@ -213,7 +214,9 @@ cdn1.developermedia.com
 cdn2.developermedia.com
 cdn.optimizely.com
 cdn.ampproject.org
+
 camshowverse.to
 static.camshowhub-cdn.to
+
 xqimg.imedao.com
 xavatar.imedao.com
