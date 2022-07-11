@@ -1,5 +1,5 @@
 jsproxy_config({
-  ver: '118',
+  ver: '120',
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
     enable: true,
