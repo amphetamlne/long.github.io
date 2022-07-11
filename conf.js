@@ -6,30 +6,15 @@ jsproxy_config({
     ver: 65
   },
   // 节点配置
-  node_map: {	  
+node_map: {	  
     'mysite': {
       label: '当前站点',
       lines: {
-        'jsproxy.412503533.workers.dev': 1,
-        'jsproxy.lcgmail.workers.dev': 1,
-        'jsproxy.acao.workers.dev':1,
-        'js.lcsn.workers.dev':1,
-        'jsproxy1.412503533.workers.dev': 1,
-        'jsproxy1.lcgmail.workers.dev': 1,
-        'jsproxy1.acao.workers.dev':1,
-        'js1.lcsn.workers.dev':1,
-        'jsproxy2.412503533.workers.dev': 1,
-        'jsproxy2.lcgmail.workers.dev': 1,
-        'jsproxy2.acao.workers.dev':1,
-        'js2.lcsn.workers.dev':1,
-        'jsproxy3.412503533.workers.dev': 1,
-        'jsproxy3.lcgmail.workers.dev': 1,
-        'jsproxy3.acao.workers.dev':1,
-        'js3.lcsn.workers.dev':1,
-        'resource.412503533.workers.dev': 1,
-        'resource.lcgmail.workers.dev': 1,
-        'resource.acao.workers.dev':1,
-        'resource.lcsn.workers.dev':1,
+        'mute-recipe-c3f5.412503533.workers.dev': 1,
+        'fancy-disk-7084.acao.workers.dev': 1,
+        'bold-tree-891b.lcgmail.workers.dev':1,
+        'old-tree-6fbc.lcsn.workers.dev':1,
+        
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -37,10 +22,10 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        'resource.412503533.workers.dev': 1,
-        'resource.lcgmail.workers.dev': 1,
-        'resource.acao.workers.dev':1,
-        'resource.lcsina.workers.dev':1,
+        'sparkling-boat-a72d.412503533.workers.dev': 1,
+        'royal-snow-b156.acao.workers.dev': 1,
+        'muddy-rice-43de.lcgmail.workers.dev':1,
+        'falling-sun-29ba.lcsina.workers.dev':1,
       }
     }
   },
@@ -58,7 +43,7 @@ jsproxy_config({
    * 静态资源 CDN 地址
    * 用于加速 `assets` 目录中的资源访问
    */
-  //assets_cdn: 'https://cdn.jsdelivr.net/gh/amphetamlne/long.github.io@master/assets/',
+  assets_cdn: 'https://cdn.jsdelivr.net/gh/amphetamlne/long.github.io@master/assets/',
 
   // 本地测试时打开，否则访问的是线上的
   assets_cdn: 'assets/',
