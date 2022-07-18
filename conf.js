@@ -1,38 +1,75 @@
 jsproxy_config({
-  ver: '120',
+  ver: '121',
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
     enable: true,
-    ver: 65
+    ver: 66
   },
   // 节点配置
-node_map: {	  
+  node_map: {
     'mysite': {
       label: '当前站点',
       lines: {
-        'mute-recipe-c3f5.412503533.workers.dev': 1,
-        'fancy-disk-7084.acao.workers.dev': 1,
-        'bold-tree-891b.lcgmail.workers.dev':1,
-        'old-tree-6fbc.lcsn.workers.dev':1,
-        
+        [location.host]: 1,
       }
     },
+    'qq': {
+      label: 'QQ',
+      lines: {
+        'js.412503533.workers.dev': 1,
+        'res.412503533.workers.dev': 1,
+      }
+    },
+    '163': {
+      label: '163',
+      lines: {
+        'js.412503533-163.workers.dev': 1,
+        'res.412503533-163.workers.dev': 1,
+      }
+    },
+    'gmail': {
+      label: '谷歌',
+      lines: {
+        'js.412503533-gmail.workers.dev': 1,
+        'res.412503533-gmail.workers.dev': 1,
+      }
+    },    
+    'sina': {
+      label: '新浪',
+      lines: {
+        'js.412503533.workers.dev': 1,
+        'res.412503533.workers.dev': 1,
+      }
+    },
+    'all': {
+      label: '综合',
+      lines: {
+        'js.412503533.workers.dev': 1,
+        'js.412503533-163.workers.dev': 1,
+        'js.412503533-gmail.workers.dev': 1,
+        'js.412503533-sina.workers.dev': 1,
+        'res.412503533.workers.dev': 1,
+        'res.412503533-163.workers.dev': 1,
+        'res.412503533-gmail.workers.dev': 1,
+        'res.412503533-sina.workers.dev': 1,        
+      }
+    },    
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
       hidden: true,
       lines: {
-        'sparkling-boat-a72d.412503533.workers.dev': 1,
-        'royal-snow-b156.acao.workers.dev': 1,
-        'muddy-rice-43de.lcgmail.workers.dev':1,
-        'falling-sun-29ba.lcsina.workers.dev':1,
+        'res.412503533.workers.dev': 1,
+        'res.412503533-163.workers.dev': 1,
+        'res.412503533-gmail.workers.dev': 1,
+        'res.412503533-sina.workers.dev': 1,
       }
     }
   },
   /**
    * 默认节点
    */
-  node_default: 'mysite', 
+  node_default: 'all', 
 
   /**
    * 加速节点
@@ -64,3 +101,4 @@ node_map: {
   url_handler: {
   }
 })
+
