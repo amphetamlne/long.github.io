@@ -37,8 +37,8 @@ jsproxy_config({
     'sina': {
       label: '新浪',
       lines: {
-        'js.412503533.workers.dev': 1,
-        'res.412503533.workers.dev': 1,
+        'js.412503533-sina.workers.dev': 1,
+        'res.412503533-sina.workers.dev': 1,
       }
     },
     'all': {
@@ -83,7 +83,7 @@ jsproxy_config({
   assets_cdn: 'https://cdn.jsdelivr.net/gh/amphetamlne/long.github.io@master/assets/',
 
   // 本地测试时打开，否则访问的是线上的
-  assets_cdn: 'assets/',
+  //assets_cdn: 'assets/',
   // 首页路径
   index_path: 'index_v3.html',
 
@@ -101,4 +101,3 @@ jsproxy_config({
   url_handler: {
   }
 })
-

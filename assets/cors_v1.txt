@@ -2,31 +2,13 @@
 # 收集了部分，实验中...
 
 # pornhub
-#cdn1-smallimg.phncdn.com
-#static.trafficjunky.com
-#ci.phncdn.com
-#di.phncdn.com
-#dl.phncdn.com
-#ei.phncdn.com
-#ss.phncdn.com
-#e1v-h.phncdn.com
-#ew.phncdn.com
-#cw2.phncdn.com
-#e1m-h.phncdn.com
-#
-#as.phncdn.com
-#ai.phncdn.com
-#cv.phncdn.com
-#cm.phncdn.com
-#cs.phncdn.com
-#cdn1-smallimg.phncdn.com
-#dd1.phncdn.com
-#dm.phncdn.com
-#dm-h.phncdn.com
-#dm1.phncdn.com
-#dv.phncdn.com
-#dv1.phncdn.com
-#dd2.phncdn.com
+static.trafficjunky.com
+as.phncdn.com
+cv.phncdn.com
+cm.phncdn.com
+dm.phncdn.com
+dv1.phncdn.com
+
 
 
 # xvideos
