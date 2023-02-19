@@ -1,5 +1,5 @@
 jsproxy_config({
-  ver: '121',
+  ver: '122',
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
     enable: true,
@@ -69,7 +69,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'all', 
+  node_default: 'qq', 
 
   /**
    * 加速节点
